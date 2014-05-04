@@ -1,0 +1,23 @@
+{
+    "name": "mamba-interactive/songs",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mamba Interactive",
+            "email": "dan@mambainteractive.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "MambaInteractive\\Songs\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
